@@ -5,6 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"os"
+	"regexp"
+	"strings"
 
 	"github.com/google/go-github/v35/github"
 	"golang.org/x/oauth2"
@@ -45,18 +47,33 @@ func NewGithubProvider(ctx context.Context, organization string, token string, u
 
 func (g *GithubProvider) GetBranches(ctx context.Context, repo *Repository) ([]*Repository, error) {
 	repos := []*Repository{}
+	fmt.Println("Oleg: I'm in github GetBranches")
 	branches, err := g.listBranches(ctx, repo)
 	if err != nil {
 		return nil, fmt.Errorf("error listing branches for %s/%s: %v", repo.Organization, repo.Repository, err)
 	}
 
+	re, err := regexp.Compile(`[^\w]`)
+	if err != nil {
+		return nil, fmt.Errorf("error listing branches for %s/%s: %v", repo.Organization, repo.Repository, err)
+	}
+
 	for _, branch := range branches {
+		fmt.Printf("Oleg: appending branch in Github GetBranches %v", branch.GetName())
+		longSHA := branch.GetCommit().GetSHA()
+		var shortSHA string
+		if len(longSHA) >= 7 {
+			shortSHA = longSHA[0:6]
+		} else {
+			shortSHA = longSHA
+		}
 		repos = append(repos, &Repository{
 			Organization: repo.Organization,
 			Repository:   repo.Repository,
 			URL:          repo.URL,
 			Branch:       branch.GetName(),
-			SHA:          branch.GetCommit().GetSHA(),
+			// normalise Git branch name and make it unique for dynamic environment deployments
+			SHA:          strings.ToLower(re.ReplaceAllString(branch.GetName(), "")) + "-" + shortSHA,
 			Labels:       repo.Labels,
 			RepositoryId: repo.RepositoryId,
 		})
@@ -70,11 +87,14 @@ func (g *GithubProvider) ListRepos(ctx context.Context, cloneProtocol string) ([
 	}
 	repos := []*Repository{}
 	for {
+		fmt.Println("Oleg: I'm in github ListRepos")
 		githubRepos, resp, err := g.client.Repositories.ListByOrg(ctx, g.organization, opt)
 		if err != nil {
 			return nil, fmt.Errorf("error listing repositories for %s: %v", g.organization, err)
 		}
+		fmt.Println("Oleg: 4")
 		for _, githubRepo := range githubRepos {
+			fmt.Println("Oleg: 5")
 			var url string
 			switch cloneProtocol {
 			// Default to SSH if unspecified (i.e. if "").
@@ -85,6 +105,7 @@ func (g *GithubProvider) ListRepos(ctx context.Context, cloneProtocol string) ([
 			default:
 				return nil, fmt.Errorf("unknown clone protocol for GitHub %v", cloneProtocol)
 			}
+			fmt.Println("Oleg: appending 6")
 			repos = append(repos, &Repository{
 				Organization: githubRepo.Owner.GetLogin(),
 				Repository:   githubRepo.GetName(),
@@ -118,7 +139,10 @@ func (g *GithubProvider) RepoHasPath(ctx context.Context, repo *Repository, path
 
 func (g *GithubProvider) listBranches(ctx context.Context, repo *Repository) ([]github.Branch, error) {
 	// If we don't specifically want to query for all branches, just use the default branch and call it a day.
+
+	fmt.Println("Oleg: I'm in github listBranches")
 	if !g.allBranches {
+		fmt.Println("Oleg: allBranches is set to false")
 		defaultBranch, _, err := g.client.Repositories.GetBranch(ctx, repo.Organization, repo.Repository, repo.Branch)
 		if err != nil {
 			var githubErrorResponse *github.ErrorResponse
@@ -133,6 +157,7 @@ func (g *GithubProvider) listBranches(ctx context.Context, repo *Repository) ([]
 		return []github.Branch{*defaultBranch}, nil
 	}
 	// Otherwise, scrape the ListBranches API.
+	fmt.Println("Oleg: allBranches is set to true")
 	opt := &github.BranchListOptions{
 		ListOptions: github.ListOptions{PerPage: 100},
 	}
@@ -143,6 +168,7 @@ func (g *GithubProvider) listBranches(ctx context.Context, repo *Repository) ([]
 			return nil, err
 		}
 		for _, githubBranch := range githubBranches {
+			fmt.Printf("Oleg: appending branch %v", githubBranch.GetName())
 			branches = append(branches, *githubBranch)
 		}
 

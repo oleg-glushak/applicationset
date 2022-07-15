@@ -47,7 +47,12 @@ func (f Filters) GetRepoFilters() Filters {
 	var repoFilters Filters
 	for _, filter := range f {
 		if filter.HasRepoFilter() {
-			repoFilters = append(repoFilters, filter)
+			repoFilters = append(repoFilters, &Filter{
+				RepositoryMatch: filter.RepositoryMatch,
+				LabelMatch:      filter.LabelMatch,
+				PathsExist:      nil,
+				BranchMatch:     nil,
+			})
 		}
 	}
 	return repoFilters
@@ -57,7 +62,14 @@ func (f Filters) GetBranchFilters() Filters {
 	var branchFilters Filters
 	for _, filter := range f {
 		if filter.HasBranchFilter() {
-			branchFilters = append(branchFilters, filter)
+			filter.RepositoryMatch = nil
+			filter.RepositoryMatch = nil
+			branchFilters = append(branchFilters, &Filter{
+				RepositoryMatch: nil,
+				LabelMatch:      nil,
+				PathsExist:      filter.PathsExist,
+				BranchMatch:     filter.BranchMatch,
+			})
 		}
 	}
 	return branchFilters

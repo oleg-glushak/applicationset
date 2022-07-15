@@ -37,6 +37,8 @@ COPY hack/from-argo-cd/git-ask-pass.sh /usr/local/bin/git-ask-pass.sh
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+
 # Support for mounting configuration from a configmap
 RUN mkdir -p /app/config/ssh && \
     touch /app/config/ssh/ssh_known_hosts && \

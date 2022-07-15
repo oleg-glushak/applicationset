@@ -113,10 +113,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -201,8 +197,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -214,12 +208,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -419,10 +409,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -507,8 +493,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -520,12 +504,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -727,10 +707,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -815,8 +791,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -828,12 +802,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -1011,10 +981,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -1099,8 +1065,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -1112,12 +1076,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -1325,10 +1285,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -1413,8 +1369,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -1426,12 +1380,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -1631,10 +1581,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -1719,8 +1665,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -1732,12 +1676,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -1939,10 +1879,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -2027,8 +1963,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -2040,12 +1974,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -2223,10 +2153,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -2311,8 +2237,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -2324,12 +2248,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -2453,10 +2373,6 @@ spec:
                                 required:
                                 - elements
                                 type: object
-                              matrix:
-                                x-kubernetes-preserve-unknown-fields: true
-                              merge:
-                                x-kubernetes-preserve-unknown-fields: true
                               pullRequest:
                                 properties:
                                   github:
@@ -2535,10 +2451,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -2623,8 +2535,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -2636,12 +2546,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -2765,29 +2671,6 @@ spec:
                                 type: object
                               scmProvider:
                                 properties:
-                                  bitbucket:
-                                    properties:
-                                      allBranches:
-                                        type: boolean
-                                      appPasswordRef:
-                                        properties:
-                                          key:
-                                            type: string
-                                          secretName:
-                                            type: string
-                                        required:
-                                        - key
-                                        - secretName
-                                        type: object
-                                      owner:
-                                        type: string
-                                      user:
-                                        type: string
-                                    required:
-                                    - appPasswordRef
-                                    - owner
-                                    - user
-                                    type: object
                                   cloneProtocol:
                                     type: string
                                   filters:
@@ -2899,10 +2782,6 @@ spec:
                                                   type: array
                                                 kind:
                                                   type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
                                                 name:
                                                   type: string
                                                 namespace:
@@ -2987,8 +2866,6 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
                                                   parameters:
                                                     items:
                                                       properties:
@@ -3000,12 +2877,8 @@ spec:
                                                           type: string
                                                       type: object
                                                     type: array
-                                                  passCredentials:
-                                                    type: boolean
                                                   releaseName:
                                                     type: string
-                                                  skipCrds:
-                                                    type: boolean
                                                   valueFiles:
                                                     items:
                                                       type: string
@@ -3176,10 +3049,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -3264,8 +3133,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -3277,12 +3144,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -3405,2176 +3268,6 @@ spec:
                           type: object
                       required:
                       - generators
-                      type: object
-                    merge:
-                      properties:
-                        generators:
-                          items:
-                            properties:
-                              clusterDecisionResource:
-                                properties:
-                                  configMapRef:
-                                    type: string
-                                  labelSelector:
-                                    properties:
-                                      matchExpressions:
-                                        items:
-                                          properties:
-                                            key:
-                                              type: string
-                                            operator:
-                                              type: string
-                                            values:
-                                              items:
-                                                type: string
-                                              type: array
-                                          required:
-                                          - key
-                                          - operator
-                                          type: object
-                                        type: array
-                                      matchLabels:
-                                        additionalProperties:
-                                          type: string
-                                        type: object
-                                    type: object
-                                  name:
-                                    type: string
-                                  requeueAfterSeconds:
-                                    format: int64
-                                    type: integer
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                  values:
-                                    additionalProperties:
-                                      type: string
-                                    type: object
-                                required:
-                                - configMapRef
-                                type: object
-                              clusters:
-                                properties:
-                                  selector:
-                                    properties:
-                                      matchExpressions:
-                                        items:
-                                          properties:
-                                            key:
-                                              type: string
-                                            operator:
-                                              type: string
-                                            values:
-                                              items:
-                                                type: string
-                                              type: array
-                                          required:
-                                          - key
-                                          - operator
-                                          type: object
-                                        type: array
-                                      matchLabels:
-                                        additionalProperties:
-                                          type: string
-                                        type: object
-                                    type: object
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                  values:
-                                    additionalProperties:
-                                      type: string
-                                    type: object
-                                type: object
-                              git:
-                                properties:
-                                  directories:
-                                    items:
-                                      properties:
-                                        exclude:
-                                          type: boolean
-                                        path:
-                                          type: string
-                                      required:
-                                      - path
-                                      type: object
-                                    type: array
-                                  files:
-                                    items:
-                                      properties:
-                                        path:
-                                          type: string
-                                      required:
-                                      - path
-                                      type: object
-                                    type: array
-                                  repoURL:
-                                    type: string
-                                  requeueAfterSeconds:
-                                    format: int64
-                                    type: integer
-                                  revision:
-                                    type: string
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                required:
-                                - repoURL
-                                - revision
-                                type: object
-                              list:
-                                properties:
-                                  elements:
-                                    items:
-                                      x-kubernetes-preserve-unknown-fields: true
-                                    type: array
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                required:
-                                - elements
-                                type: object
-                              matrix:
-                                x-kubernetes-preserve-unknown-fields: true
-                              merge:
-                                x-kubernetes-preserve-unknown-fields: true
-                              pullRequest:
-                                properties:
-                                  github:
-                                    properties:
-                                      api:
-                                        type: string
-                                      labels:
-                                        items:
-                                          type: string
-                                        type: array
-                                      owner:
-                                        type: string
-                                      repo:
-                                        type: string
-                                      tokenRef:
-                                        properties:
-                                          key:
-                                            type: string
-                                          secretName:
-                                            type: string
-                                        required:
-                                        - key
-                                        - secretName
-                                        type: object
-                                    required:
-                                    - owner
-                                    - repo
-                                    type: object
-                                  requeueAfterSeconds:
-                                    format: int64
-                                    type: integer
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                type: object
-                              scmProvider:
-                                properties:
-                                  bitbucket:
-                                    properties:
-                                      allBranches:
-                                        type: boolean
-                                      appPasswordRef:
-                                        properties:
-                                          key:
-                                            type: string
-                                          secretName:
-                                            type: string
-                                        required:
-                                        - key
-                                        - secretName
-                                        type: object
-                                      owner:
-                                        type: string
-                                      user:
-                                        type: string
-                                    required:
-                                    - appPasswordRef
-                                    - owner
-                                    - user
-                                    type: object
-                                  cloneProtocol:
-                                    type: string
-                                  filters:
-                                    items:
-                                      properties:
-                                        branchMatch:
-                                          type: string
-                                        labelMatch:
-                                          type: string
-                                        pathsExist:
-                                          items:
-                                            type: string
-                                          type: array
-                                        repositoryMatch:
-                                          type: string
-                                      type: object
-                                    type: array
-                                  github:
-                                    properties:
-                                      allBranches:
-                                        type: boolean
-                                      api:
-                                        type: string
-                                      organization:
-                                        type: string
-                                      tokenRef:
-                                        properties:
-                                          key:
-                                            type: string
-                                          secretName:
-                                            type: string
-                                        required:
-                                        - key
-                                        - secretName
-                                        type: object
-                                    required:
-                                    - organization
-                                    type: object
-                                  gitlab:
-                                    properties:
-                                      allBranches:
-                                        type: boolean
-                                      api:
-                                        type: string
-                                      group:
-                                        type: string
-                                      includeSubgroups:
-                                        type: boolean
-                                      tokenRef:
-                                        properties:
-                                          key:
-                                            type: string
-                                          secretName:
-                                            type: string
-                                        required:
-                                        - key
-                                        - secretName
-                                        type: object
-                                    required:
-                                    - group
-                                    type: object
-                                  requeueAfterSeconds:
-                                    format: int64
-                                    type: integer
-                                  template:
-                                    properties:
-                                      metadata:
-                                        properties:
-                                          annotations:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          finalizers:
-                                            items:
-                                              type: string
-                                            type: array
-                                          labels:
-                                            additionalProperties:
-                                              type: string
-                                            type: object
-                                          name:
-                                            type: string
-                                          namespace:
-                                            type: string
-                                        type: object
-                                      spec:
-                                        properties:
-                                          destination:
-                                            properties:
-                                              name:
-                                                type: string
-                                              namespace:
-                                                type: string
-                                              server:
-                                                type: string
-                                            type: object
-                                          ignoreDifferences:
-                                            items:
-                                              properties:
-                                                group:
-                                                  type: string
-                                                jqPathExpressions:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                jsonPointers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                kind:
-                                                  type: string
-                                                managedFieldsManagers:
-                                                  items:
-                                                    type: string
-                                                  type: array
-                                                name:
-                                                  type: string
-                                                namespace:
-                                                  type: string
-                                              required:
-                                              - kind
-                                              type: object
-                                            type: array
-                                          info:
-                                            items:
-                                              properties:
-                                                name:
-                                                  type: string
-                                                value:
-                                                  type: string
-                                              required:
-                                              - name
-                                              - value
-                                              type: object
-                                            type: array
-                                          project:
-                                            type: string
-                                          revisionHistoryLimit:
-                                            format: int64
-                                            type: integer
-                                          source:
-                                            properties:
-                                              chart:
-                                                type: string
-                                              directory:
-                                                properties:
-                                                  exclude:
-                                                    type: string
-                                                  include:
-                                                    type: string
-                                                  jsonnet:
-                                                    properties:
-                                                      extVars:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                      libs:
-                                                        items:
-                                                          type: string
-                                                        type: array
-                                                      tlas:
-                                                        items:
-                                                          properties:
-                                                            code:
-                                                              type: boolean
-                                                            name:
-                                                              type: string
-                                                            value:
-                                                              type: string
-                                                          required:
-                                                          - name
-                                                          - value
-                                                          type: object
-                                                        type: array
-                                                    type: object
-                                                  recurse:
-                                                    type: boolean
-                                                type: object
-                                              helm:
-                                                properties:
-                                                  fileParameters:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        path:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  ignoreMissingValueFiles:
-                                                    type: boolean
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        forceString:
-                                                          type: boolean
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      type: object
-                                                    type: array
-                                                  passCredentials:
-                                                    type: boolean
-                                                  releaseName:
-                                                    type: string
-                                                  skipCrds:
-                                                    type: boolean
-                                                  valueFiles:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  values:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              ksonnet:
-                                                properties:
-                                                  environment:
-                                                    type: string
-                                                  parameters:
-                                                    items:
-                                                      properties:
-                                                        component:
-                                                          type: string
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                type: object
-                                              kustomize:
-                                                properties:
-                                                  commonAnnotations:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  commonLabels:
-                                                    additionalProperties:
-                                                      type: string
-                                                    type: object
-                                                  forceCommonAnnotations:
-                                                    type: boolean
-                                                  forceCommonLabels:
-                                                    type: boolean
-                                                  images:
-                                                    items:
-                                                      type: string
-                                                    type: array
-                                                  namePrefix:
-                                                    type: string
-                                                  nameSuffix:
-                                                    type: string
-                                                  version:
-                                                    type: string
-                                                type: object
-                                              path:
-                                                type: string
-                                              plugin:
-                                                properties:
-                                                  env:
-                                                    items:
-                                                      properties:
-                                                        name:
-                                                          type: string
-                                                        value:
-                                                          type: string
-                                                      required:
-                                                      - name
-                                                      - value
-                                                      type: object
-                                                    type: array
-                                                  name:
-                                                    type: string
-                                                type: object
-                                              repoURL:
-                                                type: string
-                                              targetRevision:
-                                                type: string
-                                            required:
-                                            - repoURL
-                                            type: object
-                                          syncPolicy:
-                                            properties:
-                                              automated:
-                                                properties:
-                                                  allowEmpty:
-                                                    type: boolean
-                                                  prune:
-                                                    type: boolean
-                                                  selfHeal:
-                                                    type: boolean
-                                                type: object
-                                              retry:
-                                                properties:
-                                                  backoff:
-                                                    properties:
-                                                      duration:
-                                                        type: string
-                                                      factor:
-                                                        format: int64
-                                                        type: integer
-                                                      maxDuration:
-                                                        type: string
-                                                    type: object
-                                                  limit:
-                                                    format: int64
-                                                    type: integer
-                                                type: object
-                                              syncOptions:
-                                                items:
-                                                  type: string
-                                                type: array
-                                            type: object
-                                        required:
-                                        - destination
-                                        - project
-                                        - source
-                                        type: object
-                                    required:
-                                    - metadata
-                                    - spec
-                                    type: object
-                                type: object
-                            type: object
-                          type: array
-                        mergeKeys:
-                          items:
-                            type: string
-                          type: array
-                        template:
-                          properties:
-                            metadata:
-                              properties:
-                                annotations:
-                                  additionalProperties:
-                                    type: string
-                                  type: object
-                                finalizers:
-                                  items:
-                                    type: string
-                                  type: array
-                                labels:
-                                  additionalProperties:
-                                    type: string
-                                  type: object
-                                name:
-                                  type: string
-                                namespace:
-                                  type: string
-                              type: object
-                            spec:
-                              properties:
-                                destination:
-                                  properties:
-                                    name:
-                                      type: string
-                                    namespace:
-                                      type: string
-                                    server:
-                                      type: string
-                                  type: object
-                                ignoreDifferences:
-                                  items:
-                                    properties:
-                                      group:
-                                        type: string
-                                      jqPathExpressions:
-                                        items:
-                                          type: string
-                                        type: array
-                                      jsonPointers:
-                                        items:
-                                          type: string
-                                        type: array
-                                      kind:
-                                        type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
-                                      name:
-                                        type: string
-                                      namespace:
-                                        type: string
-                                    required:
-                                    - kind
-                                    type: object
-                                  type: array
-                                info:
-                                  items:
-                                    properties:
-                                      name:
-                                        type: string
-                                      value:
-                                        type: string
-                                    required:
-                                    - name
-                                    - value
-                                    type: object
-                                  type: array
-                                project:
-                                  type: string
-                                revisionHistoryLimit:
-                                  format: int64
-                                  type: integer
-                                source:
-                                  properties:
-                                    chart:
-                                      type: string
-                                    directory:
-                                      properties:
-                                        exclude:
-                                          type: string
-                                        include:
-                                          type: string
-                                        jsonnet:
-                                          properties:
-                                            extVars:
-                                              items:
-                                                properties:
-                                                  code:
-                                                    type: boolean
-                                                  name:
-                                                    type: string
-                                                  value:
-                                                    type: string
-                                                required:
-                                                - name
-                                                - value
-                                                type: object
-                                              type: array
-                                            libs:
-                                              items:
-                                                type: string
-                                              type: array
-                                            tlas:
-                                              items:
-                                                properties:
-                                                  code:
-                                                    type: boolean
-                                                  name:
-                                                    type: string
-                                                  value:
-                                                    type: string
-                                                required:
-                                                - name
-                                                - value
-                                                type: object
-                                              type: array
-                                          type: object
-                                        recurse:
-                                          type: boolean
-                                      type: object
-                                    helm:
-                                      properties:
-                                        fileParameters:
-                                          items:
-                                            properties:
-                                              name:
-                                                type: string
-                                              path:
-                                                type: string
-                                            type: object
-                                          type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
-                                        parameters:
-                                          items:
-                                            properties:
-                                              forceString:
-                                                type: boolean
-                                              name:
-                                                type: string
-                                              value:
-                                                type: string
-                                            type: object
-                                          type: array
-                                        passCredentials:
-                                          type: boolean
-                                        releaseName:
-                                          type: string
-                                        skipCrds:
-                                          type: boolean
-                                        valueFiles:
-                                          items:
-                                            type: string
-                                          type: array
-                                        values:
-                                          type: string
-                                        version:
-                                          type: string
-                                      type: object
-                                    ksonnet:
-                                      properties:
-                                        environment:
-                                          type: string
-                                        parameters:
-                                          items:
-                                            properties:
-                                              component:
-                                                type: string
-                                              name:
-                                                type: string
-                                              value:
-                                                type: string
-                                            required:
-                                            - name
-                                            - value
-                                            type: object
-                                          type: array
-                                      type: object
-                                    kustomize:
-                                      properties:
-                                        commonAnnotations:
-                                          additionalProperties:
-                                            type: string
-                                          type: object
-                                        commonLabels:
-                                          additionalProperties:
-                                            type: string
-                                          type: object
-                                        forceCommonAnnotations:
-                                          type: boolean
-                                        forceCommonLabels:
-                                          type: boolean
-                                        images:
-                                          items:
-                                            type: string
-                                          type: array
-                                        namePrefix:
-                                          type: string
-                                        nameSuffix:
-                                          type: string
-                                        version:
-                                          type: string
-                                      type: object
-                                    path:
-                                      type: string
-                                    plugin:
-                                      properties:
-                                        env:
-                                          items:
-                                            properties:
-                                              name:
-                                                type: string
-                                              value:
-                                                type: string
-                                            required:
-                                            - name
-                                            - value
-                                            type: object
-                                          type: array
-                                        name:
-                                          type: string
-                                      type: object
-                                    repoURL:
-                                      type: string
-                                    targetRevision:
-                                      type: string
-                                  required:
-                                  - repoURL
-                                  type: object
-                                syncPolicy:
-                                  properties:
-                                    automated:
-                                      properties:
-                                        allowEmpty:
-                                          type: boolean
-                                        prune:
-                                          type: boolean
-                                        selfHeal:
-                                          type: boolean
-                                      type: object
-                                    retry:
-                                      properties:
-                                        backoff:
-                                          properties:
-                                            duration:
-                                              type: string
-                                            factor:
-                                              format: int64
-                                              type: integer
-                                            maxDuration:
-                                              type: string
-                                          type: object
-                                        limit:
-                                          format: int64
-                                          type: integer
-                                      type: object
-                                    syncOptions:
-                                      items:
-                                        type: string
-                                      type: array
-                                  type: object
-                              required:
-                              - destination
-                              - project
-                              - source
-                              type: object
-                          required:
-                          - metadata
-                          - spec
-                          type: object
-                      required:
-                      - generators
-                      - mergeKeys
                       type: object
                     pullRequest:
                       properties:
@@ -5654,10 +3347,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -5742,8 +3431,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -5755,12 +3442,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -5884,29 +3567,6 @@ spec:
                       type: object
                     scmProvider:
                       properties:
-                        bitbucket:
-                          properties:
-                            allBranches:
-                              type: boolean
-                            appPasswordRef:
-                              properties:
-                                key:
-                                  type: string
-                                secretName:
-                                  type: string
-                              required:
-                              - key
-                              - secretName
-                              type: object
-                            owner:
-                              type: string
-                            user:
-                              type: string
-                          required:
-                          - appPasswordRef
-                          - owner
-                          - user
-                          type: object
                         cloneProtocol:
                           type: string
                         filters:
@@ -6018,10 +3678,6 @@ spec:
                                         type: array
                                       kind:
                                         type: string
-                                      managedFieldsManagers:
-                                        items:
-                                          type: string
-                                        type: array
                                       name:
                                         type: string
                                       namespace:
@@ -6106,8 +3762,6 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        ignoreMissingValueFiles:
-                                          type: boolean
                                         parameters:
                                           items:
                                             properties:
@@ -6119,12 +3773,8 @@ spec:
                                                 type: string
                                             type: object
                                           type: array
-                                        passCredentials:
-                                          type: boolean
                                         releaseName:
                                           type: string
-                                        skipCrds:
-                                          type: boolean
                                         valueFiles:
                                           items:
                                             type: string
@@ -6300,10 +3950,6 @@ spec:
                               type: array
                             kind:
                               type: string
-                            managedFieldsManagers:
-                              items:
-                                type: string
-                              type: array
                             name:
                               type: string
                             namespace:
@@ -6388,8 +4034,6 @@ spec:
                                       type: string
                                   type: object
                                 type: array
-                              ignoreMissingValueFiles:
-                                type: boolean
                               parameters:
                                 items:
                                   properties:
@@ -6401,12 +4045,8 @@ spec:
                                       type: string
                                   type: object
                                 type: array
-                              passCredentials:
-                                type: boolean
                               releaseName:
                                 type: string
-                              skipCrds:
-                                type: boolean
                               valueFiles:
                                 items:
                                   type: string
@@ -6532,28 +4172,6 @@ spec:
             - template
             type: object
           status:
-            properties:
-              conditions:
-                items:
-                  properties:
-                    lastTransitionTime:
-                      format: date-time
-                      type: string
-                    message:
-                      type: string
-                    reason:
-                      type: string
-                    status:
-                      type: string
-                    type:
-                      type: string
-                  required:
-                  - message
-                  - reason
-                  - status
-                  - type
-                  type: object
-                type: array
             type: object
         required:
         - metadata
@@ -6561,8 +4179,6 @@ spec:
         type: object
     served: true
     storage: true
-    subresources:
-      status: {}
 status:
   acceptedNames:
     kind: ""

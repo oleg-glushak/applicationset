@@ -97,6 +97,7 @@ func (g *SCMProviderGenerator) GenerateParams(appSetGenerator *argoprojiov1alpha
 	}
 	params := make([]map[string]string, 0, len(repos))
 	for _, repo := range repos {
+		fmt.Printf("Oleg: repo: %v, branch: %v", repo.Repository, repo.Branch)
 		params = append(params, map[string]string{
 			"organization": repo.Organization,
 			"repository":   repo.Repository,
